@@ -139,11 +139,59 @@ Apply these information respectively to the filter and attribute, we may be able
 > {: .solution}
 {: .challenge}
 
+
+> ## Exercise 4
+>
+> SMAD2 gene is located on chromosome 18 in band q21.1.
+> Which other genes with consensus coding sequences assigned by
+the CCDS project locate to the same band? What are their cDNA sequences?
+>
+> > ## CCDS Project
+> > The Consensus Coding Sequence(CCDS) project is a collaborative effort to identify a core set of protein coding regions that are consistently annotated and of high quality
+> >
+> > ![CCDS](../fig/ccds_banner.jpg)
+> >
+> {: .callout}
+>
+> > ## Solution
+> > There are 33 genes that satisfy this filter.
+> >
+> > ![biomartExercise4_6](../fig/biomart_exercise4_6.png)
+> >
+> > Filter setting:
+> > * chromosome: 18
+> >
+> > * Band start: q21.1; end: q21.1
+> >
+> > * Limites to genes with CCDs ID only
+> >
+> > ![biomartExercise4_3](../fig/biomart_exercise4_3.png)
+> >
+> > Attribute setting:
+> >
+> > * Sequence: cDNA sequences
+> >
+> > ![biomartExercise4_4](../fig/biomart_exercise4_4.png)
+> >
+> > * Header information
+> >
+> > ![biomartExercise4_5](../fig/biomart_exercise4_5.png)
+> >
+> > Results:
+> >
+> > ![biomartExercise4_7](../fig/biomart_exercise4_7.png)
+> >
+> >
+> {: .solution}
+{: .challenge}
+
+
+
 ## Combining multi-species data
 
 BioMart also support intersect searching in different databases and mart dataset.
 
-Let's say you want to know the genes that belongs to [PF00352](http://pfam.xfam.org/family/PF00352) in human and mouse. 
+Let's say you want to know the genes that belongs to [PF00352](http://pfam.xfam.org/family/PF00352) in human and mouse.
 
 You can simply click the other **Dataset** button located on the lower of the left panel.
 
