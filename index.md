@@ -11,6 +11,8 @@ Today we will learn about Ensembl project and Gene Expression Omnibus, together 
 
 > ## Prerequisites
 > This lesson guides yo uthrough how to search and access to data in Ensembl and GEO.
+>
 > No prerequisites are required.  
+>
 > The only thing you need to think about is how to adapt your questions into query.
 {: .prereq}
