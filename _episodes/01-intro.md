@@ -1,142 +1,73 @@
 ---
-title: "Introducing the Shell"
+title: "Introducing to BioMart"
 teaching: 5
 exercises: 0
 questions:
-- "What is a command shell and why would I use one?"
+- "What is Ensembl?"
+- "What is BioMart?"
 objectives:
-- "Explain how the shell relates to the keyboard, the screen, the operating system, and users' programs."
-- "Explain when and why command-line interfaces should be used instead of graphical interfaces."
+- "Introduce the Ensembl project."
+- "Explain how BioMart looks like and its functions."
 keypoints:
-- "Explain the similarities and differences between a file and a directory."
-- "Translate an absolute path into a relative path and vice versa."
-- "Construct absolute and relative paths that identify specific files and directories."
-- "Explain the steps in the shell's read-run-print cycle."
-- "Identify the actual command, flags, and filenames in a command-line call."
-- "Demonstrate the use of tab completion, and explain its advantages."
-keypoints:
-- "A shell is a program whose primary purpose is to read commands and run other programs."
-- "The shell's main advantages are its high action-to-keystroke ratio, its support for automating repetitive tasks, and that it can be used to access networked machines."
-- "The shell's main disadvantages are its primarily textual nature and how cryptic its commands and operation can be."
+- "Ensembl is a joint project between EMBL-EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes"
+- "BioMart is a web-based tool provided by Ensembl to provide data mining and download to public."
 ---
 
-At a high level, computers do four things:
+## About the Ensembl project
 
--   run programs
--   store data
--   communicate with each other
--   and interact with us
+Ensembl is a joint project between [European Bioinformatics Institute](http://www.ebi.ac.uk/) (EMBI-EBI), an outstation of the European Molecular Biology Laboratory (EMBL), and the [Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/) (WTSI). Both institutes are located on the Wellcome Trust Genome Campus in Hinxton, south of the city of Cambridge, United Kingdom.
 
-They can do the last of these in many different ways,
-including direct brain-computer and speech interfaces.
-Since these hardware interfaces are still in their infancy,
-we still have to rely on screens, mice, touchpads and keyboards.
-Although most modern desktop operating systems communicate with their human users by
-means of windows, icons and pointers, these software technologies didn't become
-widespread until 1980s. The roots of such *graphical user interfaces*  go back
-to Doug Engelbart's work in the 1960s, which you can see in what has been
-called "[The Mother of All Demos](http://www.youtube.com/watch?v=a11JDLBXtPQ)".
+Ensembl is one of the world's primary resources for genomic research, a
+resource through which scientists can access the human genome as well as
+the genomes of other model organisms. Because of the complexity of the
+genome and the many different ways in which scientists want to use it,
+Ensembl has to provide many levels of access with a high degree of flexibility.
+Through the Ensembl website a wet-lab researcher with a simple web browser
+can for example perform BLAST searches against chromosomal DNA,
+download a genomic sequence or search for all members of a given protein
+family. But Ensembl is also an all-round software and database system that
+can be installed locally to serve the needs of a genomic centre or a
+bioinformatics division in a pharmaceutical company enabling complex data
+mining of the genome or large-scale sequence annotation.
 
-Going back even further,
-the only way to interact with early computers was to rewire them.
-But in between,
-from the 1950s to the 1980s,
-most people used line printers.
-These devices only allowed input and output of the letters, numbers, and punctuation found on a standard keyboard,
-so programming languages and software interfaces had to be designed around that constraint.
+With the rapid development of next generation sequencing technologies, we are experiencing a exponential growth of sequencing data. This raw data can be very valuable when provided with proper annotation.
 
-This kind of interface is called a
-**command-line interface**, or CLI,
-to distinguish it from a
-**graphical user interface**, or GUI,
-which most people now use.
-The heart of a CLI is a **read-evaluate-print loop**, or REPL:
-when the user types a command and then presses the Enter (or Return) key,
-the computer reads it,
-executes it,
-and prints its output.
-The user then types another command,
-and so on until the user logs off.
+![genome_complted](../fig/genome_completed.png)
+(taken from [Greg Zynda's blog](http://gregoryzynda.com/ncbi/genome/python/2014/03/31/ncbi-genome.html))
 
-This description makes it sound as though the user sends commands directly to the computer,
-and the computer sends output directly to the user.
-In fact,
-there is usually a program in between called a
-**command shell**.
-What the user types goes into the shell,
-which then figures out what commands to run and orders the computer to execute them.
-(Note that the shell is called "the shell" because it encloses the operating system
-in order to hide some of its complexity and make it simpler to interact with.)
+In response to the acceleration of the public effort to sequence the human genome, the Ensembl project was started in 1999.
 
-A shell is a program like any other.
-What's special about it is that its job is to run other programs
-rather than to do calculations itself.
-The most popular Unix shell is Bash,
-the Bourne Again SHell
-(so-called because it's derived from a shell written by Stephen Bourne).
-Bash is the default shell on most modern implementations of Unix
-and in most packages that provide Unix-like tools for Windows.
+> ## Three main goal of Ensembl
+> 1. Provide a scalable way to storing and retrieving genomic data
+> 2. Automatically annotate the genome and integrate with other available biological data
+> 3. Provide a website for genome display for public
+{: .callout}
 
-Using Bash or any other shell
-sometimes feels more like programming than like using a mouse.
-Commands are terse (often only a couple of characters long),
-their names are frequently cryptic,
-and their output is lines of text rather than something visual like a graph.
-On the other hand,
-with only a few keystrokes, the shell allows us to combine existing tools into 
-powerful pipelines and handle large volumes of data automatically. This automation
-not only makes us more productive, but also improves the reproducibility of our workflows by 
-allowing us to repeat them with few simple commands.
-In addition, the command line is often the easiest way to interact with remote machines and supercomputers.
-Familiarity with the shell is near essential to run a variety of specialized tools and resources
-including high-performance computing systems.
-As clusters and cloud computing systems become more popular for scientific data crunching,
-being able to interact with them is becoming a necessary skill.
-We can build on the command-line skills covered here
-to tackle a wide range of scientific questions and computational challenges.
+Ensembl provides access to genomic information with a number of
+visualisation tools. The Ensembl website gives you the possibility to directly
+download data, whether it is the DNA sequence of a genomic contig you are
+trying to identify novel genes in, or positions of SNPs in a gene you are
+working on. An updated version of the website is released bimonthly. Old
+versions are accessible on the ‘Archive!’ website, dating back two years. Apart
+5from that the ‘Pre!’ website provides displays of genomes that are still in the
+process of being annotated. There is also an ftp site to download large
+amounts of data from the Ensembl database, as well as the data-mining tool
+BioMart, that allows rapid retrieval of information from the databases, and
+BLAST/BLAT sequence searching and alignment.
 
-## Nelle's Pipeline: Starting Point
+## What is BioMart
 
-Nelle Nemo, a marine biologist,
-has just returned from a six-month survey of the
-[North Pacific Gyre](http://en.wikipedia.org/wiki/North_Pacific_Gyre),
-where she has been sampling gelatinous marine life in the
-[Great Pacific Garbage Patch](http://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch).
-She has 1520 samples in all, and now needs to:
+BioMart is an easy-to-use web-based tool that allows extraction of data without any programming knowledge or understanding of the underlying database structure. You can navigate through the BioMart web interface using the left panel. Filters and attributes can be selected in the right panel. A summary of your choices is also displayed in the left panel.
 
-1.  Run each sample through an assay machine
-    that will measure the relative abundance of 300 different proteins.
-    The machine's output for a single sample is
-    a file with one line for each protein.
-2.  Calculate statistics for each of the proteins separately
-    using a program her supervisor wrote called `goostat`.
-3.  Compare the statistics for each protein
-    with corresponding statistics for each other protein
-    using a program one of the other graduate students wrote called `goodiff`.
-4.  Write up results.
-    Her supervisor would really like her to do this by the end of the month
-    so that her paper can appear in an upcoming special issue of *Aquatic Goo Letters*.
+![biomart_overview](../fig/biomart_overview.png)
 
-It takes about half an hour for the assay machine to process each sample.
-The good news is that
-it only takes two minutes to set each one up.
-Since her lab has eight assay machines that she can use in parallel,
-this step will "only" take about two weeks.
+You can think of it as a search engine like google, that you can search for multiple terms and put the result in as table format.
 
-The bad news is that if she has to run `goostat` and `goodiff` by hand,
-she'll have to enter filenames and click "OK" 46,370 times
-(1520 runs of `goostat`, plus 300*299/2 (half of 300 times 299) runs of `goodiff`).
-At 30 seconds each,
-that will take more than two weeks.
-Not only would she miss her paper deadline,
-the chances of her typing all of those commands right are practically zero.
+> ## Ways of retrieving data using BioMart
+> 1. Webpage
+> 2. BiomaRt Bioc R packages
+> 3. Perl API
+> 4. RESTful access
+{: .callout}
 
-The next few lessons will explore what she should do instead.
-More specifically,
-they explain how she can use a command shell
-to automate the repetitive steps in her processing pipeline
-so that her computer can work 24 hours a day while she writes her paper.
-As a bonus,
-once she has put a processing pipeline together,
-she will be able to use it again whenever she collects more data.
-
+We will walk through how to use BioMart in the next session.
