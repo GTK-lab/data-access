@@ -11,11 +11,12 @@ objectives:
 keypoints:
 - "Ensembl is a joint project between EMBL-EBI and the Wellcome Trust Sanger Institute to develop a software system which produces and maintains automatic annotation on selected eukaryotic genomes"
 - "BioMart is a web-based tool provided by Ensembl to provide data mining and download to public."
+- "Link to Ensembl: http://asia.ensembl.org/index.html"
 ---
 
 ## About the Ensembl project
 
-Ensembl is a joint project between [European Bioinformatics Institute](http://www.ebi.ac.uk/) (EMBI-EBI), an outstation of the European Molecular Biology Laboratory (EMBL), and the [Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/) (WTSI). Both institutes are located on the Wellcome Trust Genome Campus in Hinxton, south of the city of Cambridge, United Kingdom.
+[Ensembl](http://asia.ensembl.org/index.html) is a joint project between [European Bioinformatics Institute](http://www.ebi.ac.uk/) (EMBI-EBI), an outstation of the European Molecular Biology Laboratory (EMBL), and the [Wellcome Trust Sanger Institute](http://www.sanger.ac.uk/) (WTSI). Both institutes are located on the Wellcome Trust Genome Campus in Hinxton, south of the city of Cambridge, United Kingdom.
 
 Ensembl is one of the world's primary resources for genomic research, a
 resource through which scientists can access the human genome as well as
@@ -33,6 +34,7 @@ mining of the genome or large-scale sequence annotation.
 With the rapid development of next generation sequencing technologies, we are experiencing a exponential growth of sequencing data. This raw data can be very valuable when provided with proper annotation.
 
 ![genome_complted](../fig/genome_completed.png)
+
 (taken from [Greg Zynda's blog](http://gregoryzynda.com/ncbi/genome/python/2014/03/31/ncbi-genome.html))
 
 In response to the acceleration of the public effort to sequence the human genome, the Ensembl project was started in 1999.
