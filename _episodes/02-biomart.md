@@ -150,7 +150,7 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 > > The Consensus Coding Sequence(CCDS) project is a collaborative effort to identify a core set of protein coding regions that are consistently annotated and of high quality
 > >
 > > ![CCDS](../fig/ccds_banner.jpg)
-> {: .callout}
+> > {: .callout}
 >
 > > ## Solution
 > > There are 33 genes that satisfy this filter.
