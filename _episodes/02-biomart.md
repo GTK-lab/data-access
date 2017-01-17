@@ -157,6 +157,7 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 > >
 > > ![biomartExercise4_6](../fig/biomart_exercise4_6.png)
 > >
+> >
 > > Filter setting:
 > > * chromosome: 18
 > >
@@ -165,6 +166,7 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 > > * Limites to genes with CCDs ID only
 > >
 > > ![biomartExercise4_3](../fig/biomart_exercise4_3.png)
+> >
 > >
 > > Attribute setting:
 > >
@@ -175,6 +177,7 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 > > * Header information
 > >
 > > ![biomartExercise4_5](../fig/biomart_exercise4_5.png)
+> >
 > >
 > > Results:
 > >
