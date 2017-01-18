@@ -109,7 +109,6 @@ GEO Profile is a gene based database where the user can search for gene expressi
 >
 {: .callout}
 
-.
 
 > ## Exercise
 > 1. Record which forms an original record from the submitter, summarizing an experiment.
