@@ -78,8 +78,39 @@ In the previous section, we've know briefly what is a GEO DataSet. Now we are go
 
   ![dataset_3](../fig/geo_dataset_3.png)
 
-  
+  Columns are samples and rows are genes. You are allowed to select a cluster of genes and see their Profiles. Double-click would to zoom in selected region.
+
+  * Experiment design and value distribution: Display the distribution of expression values of each Sample within a DataSet. The plot is useful for determining whether the DataSet is normalized.
+
+  ![dataset_3](../fig/geo_dataset_4.png)
 
 * **Sample subset**: Describe how the samples are assembled in this DataSet.
 
 * **Thumbnail cluster image**: Provide a overview of the expression profile in this DataSet
+
+## GEO Profiles
+
+Searching in GEO Profiles is similar to GEO DataSets. It also support Advanced Search Builder and applying different filter to results.
+The entries in GEO Profile would look like this:
+
+![geoprofile1](../fig/geo_profile_1.png)
+
+It is similar to GEO DataSet, which with link to other reference resources. Notice that the thumbnail image here is different from DataSets in that it is not a heatmap as in DataSets, but a image displaying expression level of one gene in different samples.
+
+To click on the thumbnail image, you would be directed to a page looks like this:
+
+![geoprofile2](../fig/geo_profile_2.png)
+
+* Red column:
+Each column represents the expression measurement extracted from the VALUE column of one original submitter-supplied Sample record. The original Sample accessions (GSMxxx) are listed in the gray boxes along the bottom of the chart.
+
+* Blue square:
+Represents rank order of expression measurements. All VALUEs within a Sample are rank ordered, and then placed into percentile 'bins'. In other words, all the values of one hybridization are sorted, then split into 100 groups. Thus, the blue rank squares on charts give an indication of where the expression of that gene falls with respect to all other genes on that array.
+
+> ## Attention
+>
+> It is important to note that the values (red columns) and ranks (blue squares) are charted on different scales
+>
+> The blue ranks are always on a scale of 1-100% (right Y axis of the chart),  while the red value scale slides to fit the values of a particular profile (left Y axis of the chart).
+>
+{: .callout}

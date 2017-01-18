@@ -9,10 +9,11 @@ objectives:
 - "To introduce GEO databases and its feature."
 - "Explain how data are organized in GEO."
 keypoints:
-- "Advance search is useful."
+- "Advanced search is useful."
 - "GEO provide assistance to scientific publication."
 - "Data in GEO are organized in different levels."
 - "GEO DataSets are derived from Series records submitted by the scientific community. GEO Profiles are derived from DataSets."
+- "Some data are not available to public for download, since it haven't been release by GEO."
 ---
 
 ## About GEO
@@ -41,6 +42,9 @@ GEO accepts different kinds of data including high–throughput functional genom
 ### Data organization
 
 The data from expression studies can be organized in platform records, sample records, series records, dataset and profile.
+
+![geooverview](../fig/geo_overview.jpg)
+
 
 > ## Terms in GEO
 > * Submitter: A submitter entity contains contact and authentication information about the submitter. This information is kept
@@ -104,3 +108,41 @@ GEO Profile is a gene based database where the user can search for gene expressi
 > * GEO Profiles is a *gene-level* database which users can search for gene expression profiles relevant to their interests.
 >
 {: .callout}
+
+.
+
+> ## Exercise
+> 1. Record which forms an original record from the submitter, summarizing an experiment.
+>
+>    **A**. Series **B**. Platform  **C**. Sample  **D**. GEO Profile
+>
+> 2. Gene based database where the user can search for gene expression profiles.
+>
+>    **A**. GEO DataSet **B**. MIAME **C**. Platform **D**. GEO Profile
+>
+> 3. MIAME stands for
+>
+>    **A**. Maximum Information About a Microarray Experiment
+>
+>    **B**. Minimum Information About a Molecule Experiment
+>
+>    **C**. Minimum Information About a Microarray Experiment
+>
+>    **D**. Minimum Information About a Microanalysis Experiment
+>
+> 4. Which record is assigned with the unique identification number GSMxxx ?
+>
+>    **A**. Platform record	 **B**. Series record **C**. Sample record **D**. GEO Dataset
+>
+> > ## Solution
+> >
+> > A---Series may contain summary and conclusion of the data.
+> >
+> > D---DataSets are study-based database.
+> >
+> > C---MIAME is standard for microarray data.
+> >
+> > C
+> >
+>
+{: .challenge}
