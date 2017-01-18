@@ -144,5 +144,5 @@ GEO Profile is a gene based database where the user can search for gene expressi
 > >
 > > C
 > >
->
+> {: .solution}
 {: .challenge}
