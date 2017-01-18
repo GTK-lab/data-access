@@ -10,7 +10,9 @@ objectives:
 - "Explain how data are organized in GEO."
 keypoints:
 - "Advance search is useful."
-- "GEO dataset and profile are different."
+- "GEO provide assistance to scientific publication."
+- "Data in GEO are organized in different levels."
+- "GEO DataSets are derived from Series records submitted by the scientific community. GEO Profiles are derived from DataSets."
 ---
 
 ## About GEO
