@@ -33,7 +33,7 @@ mining of the genome or large-scale sequence annotation.
 
 With the rapid development of next generation sequencing technologies, we are experiencing a exponential growth of sequencing data. This raw data can be very valuable when provided with proper annotation.
 
-![genome_complted](../fig/genome_completed.png)
+![genome_completed](../fig/genome_completed.png)
 
 (taken from [Greg Zynda's blog](http://gregoryzynda.com/ncbi/genome/python/2014/03/31/ncbi-genome.html))
 

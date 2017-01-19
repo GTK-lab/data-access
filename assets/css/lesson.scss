@@ -6,6 +6,9 @@
 //----------------------------------------
 
 // branding
+
+$nus-blue:          #003d7c !default;
+$nus-orange:        #ef7c00 !default;
 $color-brand:       #2b3990 !default;
 
 // code boxes
@@ -14,13 +17,13 @@ $color-output:      #303030 !default;
 $color-source:      #6e5494 !default;
 
 // blockquotes
-$color-callout:     #f4fd9c !default;
+$color-callout:     $nus-orange !default;
 $color-challenge:   #eec275 !default;
 $color-checklist:   #dfd2a0 !default;
 $color-discussion:  #eec275 !default;
 $color-keypoints:   #7ae78e !default;
-$color-objectives:  #daee84 !default;
-$color-prereq:      #9cd6dc !default;
+$color-objectives:  lighten(desaturate($nus-blue,60%),50%); //   $nus-blue; //#daee84 !default;
+$color-prereq:      lighten(desaturate($nus-orange,10%),30%); //   #9cd6dc !default;
 $color-solution:    #ded4b9 !default;
 $color-testimonial: #fc8dc1 !default;
 
@@ -80,7 +83,7 @@ $codeblock-padding: 5px !default;
     padding-left: $codeblock-padding;
     padding-right: $codeblock-padding;
     display: inline-block;
-    -webkit-font-smoothing: antialiased;
+    webkit-font-smoothing: antialiased;
   }
 
 }
