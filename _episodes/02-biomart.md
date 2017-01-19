@@ -225,7 +225,7 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 >
 >   (b) In a new BioMart query, find the alleles, phenotype descriptions, and associated genes for the human SNPs rs1801500 and rs1801368. Can you view this same information in the Ensembl browser?
 >
-> 5.  Find genes associated with array probes
+> 5. Find genes associated with array probes
 >
 >  Forrest et al. performed a microarray analysis of peripheral blood mononuclear cell gene expression in benzene-exposed workers (Environ Health Perspect. 2005 June; 113(6): 801–807). The microarray used was the human Affymetrix U133A/B (also called U133 plus 2) GeneChip. The top 25 up-regulated probe-sets are below.
 >
