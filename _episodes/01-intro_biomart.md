@@ -51,7 +51,7 @@ download data, whether it is the DNA sequence of a genomic contig you are
 trying to identify novel genes in, or positions of SNPs in a gene you are
 working on. An updated version of the website is released bimonthly. Old
 versions are accessible on the ‘Archive!’ website, dating back two years. Apart
-5from that the ‘Pre!’ website provides displays of genomes that are still in the
+from that the ‘Pre!’ website provides displays of genomes that are still in the
 process of being annotated. There is also an ftp site to download large
 amounts of data from the Ensembl database, as well as the data-mining tool
 BioMart, that allows rapid retrieval of information from the databases, and

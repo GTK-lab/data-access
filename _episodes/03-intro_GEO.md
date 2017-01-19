@@ -57,14 +57,14 @@ only so that the source of data in GEO can be properly referenced. A submitter e
 
  * **Platform**: A platform record describes the list of elements on the array (e.g., cDNAs, oligonucleotide probesets, ORFs,
 antibodies) or the list of elements that may be detected and quantified in that experiment (e.g., SAGE tags,
-peptides). Each platform record is assigned a unique and stable GEO accession number (GPLxxx). A platform may
+peptides). Each platform record is assigned a unique and stable GEO accession number (**GPLxxx**). A platform may
 reference many samples that have been submitted by multiple submitters.
 
 ![Platform](../fig/geointro_GPL.png)
 
  * **Sample**: A sample record describes the conditions under which an individual sample was handled, the manipulations it
 underwent and the abundance measurement of each element derived from it. Each sample record is assigned a
-unique and stable GEO accession number (GSMxxx). A sample entity **must reference only one platform**, and may
+unique and stable GEO accession number (**GSMxxx**). A sample entity **must reference only one platform**, and may
 be included in multiple series.
 
 ![Sample](../fig/geointro_GSM.png)
@@ -72,14 +72,14 @@ be included in multiple series.
  * **Series**: A series record defines a set of related samples considered to be part of a group, how the samples are related and
 if and how they are ordered. A series provides a focal point and description of the experiment as a whole. Series
 records may also contain tables describing extracted data, summary conclusions or analyses. Each series record is
-assigned a unique and stable GEO accession number (GSExxx).
+assigned a unique and stable GEO accession number (**GSExxx**).
 
 ![Series](../fig/geointro_GSM.png)
 
 * **GEO DataSets**:
 
 A DataSet represents a curated collection of biologically and statistically comparable GEO Samples and forms the basis of GEO's suite of data display and analysis tools.
-After submission data are refined and reassembled by GEO staff into GEO Dataset records (GDSxxx).
+After submission data are refined and reassembled by GEO staff into GEO Dataset records (**GDSxxx**).
 
 GEO DataSets have advanced data display and analysis features, as well as gene expression level identifying tools and cluster heat maps.
 

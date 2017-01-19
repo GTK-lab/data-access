@@ -32,7 +32,7 @@ BioMart is an easy-to-use web-based tool that allows extraction of data without 
 > * Ensembl Variation: This mart allows you to retrieve germline and somatic variants as well as germline and somatic structural variants. This mart also contains variants' phenotypes, citations, synomyms, consequences and flanking sequences; you can also retrieve Ensembl genes, transcripts, regulatory and motif features mapped to variants.
 > * Ensembl Regulation: This mart allows you to retrieve regulatory features, evidence and segments, miRNA target regions, binding motifs and other regulatory regions.
 > * Vega: This mart contains the Ensembl Vega gene set (manual annotation coming from Havana) and allows you to retrieve Ensembl Vega genes, transcripts and proteins as well as external references, structures, sequences and protein domains.
-> * Mouse strains: Annotated date from Mouse Genomes Project.
+> * Mouse strains: Annotated data from Mouse Genomes Project.
 {: .callout}
 
 ### 2. Select a mart dataset
@@ -121,7 +121,7 @@ Apply these information respectively to the filter and attribute, we may be able
 > >
 > > ENSG00000141646	ENST00000588860	SMAD4	18	51028394	51085045
 > >
-> > The results has more entries than the count shows us. The reason is that the count only counts the number of gene that you select. If these gene has multiple transcripts, they would be shown in different entries.
+> > The results has more entries than the count shows us. The reason is that the count only counts the number of gene that you select in Ensembl database. If these gene has multiple transcripts, they would be shown in different entries.
 > {: .solution}
 {: .challenge}
 
@@ -136,6 +136,8 @@ Apply these information respectively to the filter and attribute, we may be able
 > > 	
 > > ENSG00000028839	TBPL1	6	133952170	133990432	protein_coding NA
 > >
+> > There is no transmembrane domain of this protein family, since they are DNA-binding protein.
+> >
 > {: .solution}
 {: .challenge}
 
@@ -146,7 +148,7 @@ Apply these information respectively to the filter and attribute, we may be able
 > Which other genes with consensus coding sequences assigned by
 the CCDS project locate to the same band? What are their cDNA sequences?
 >
-> 
+>
 >The Consensus Coding Sequence(CCDS) project is a collaborative effort to identify a core set of protein coding regions that are consistently annotated and of high quality
 >
 > ![CCDS](../fig/ccds_banner.jpg)
