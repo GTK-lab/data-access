@@ -213,7 +213,7 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 >
 > 3. Convert IDs
 >
->  BioMart is a very handy tool when you want to convert IDs from different databases. Below is a list of 29 IDs of human proteins from the NCBI RefSeq database. Generate a list that shows to which Ensembl Gene IDs and to which HGNC symbols these RefSeq protein IDs correspond. Do these 29 proteins correspond to 29 genes?
+>    BioMart is a very handy tool when you want to convert IDs from different databases. Below is a list of 29 IDs of human proteins from the NCBI RefSeq database. Generate a list that shows to which Ensembl Gene IDs and to which HGNC symbols these RefSeq protein IDs correspond. Do these 29 proteins correspond to 29 genes?
 >
 >    NP_001218, NP_203125, NP_203124, NP_203126, NP_001007233, NP_150636, NP_150635, NP_001214, NP_150637, NP_150634, NP_150649, NP_001216, NP_116787, NP_001217, NP_127463, NP_001220, NP_004338, NP_004337, NP_116786, NP_036246, NP_116756, NP_116759, NP_001221, NP_203519, NP_001073594, NP_001219, NP_001073593, NP_203520, NP_203522
 >
@@ -221,21 +221,21 @@ the CCDS project locate to the same band? What are their cDNA sequences?
 >
 >    You can use BioMart to query variants, not just genes. (Make sure you use the right Datasets.)
 >
->   (a) Export the study accession, source name, chromosome, sequence region start and end (in bp) of human structural variations (SV) on chromosome 1, starting at 130,408 and ending at 210,597.
+>    (a) Export the study accession, source name, chromosome, sequence region start and end (in bp) of human structural variations (SV) on chromosome 1, starting at 130,408 and ending at 210,597.
 >
->   (b) In a new BioMart query, find the alleles, phenotype descriptions, and associated genes for the human SNPs rs1801500 and rs1801368. Can you view this same information in the Ensembl browser?
+>    (b) In a new BioMart query, find the alleles, phenotype descriptions, and associated genes for the human SNPs rs1801500 and rs1801368. Can you view this same information in the Ensembl browser?
 >
 > 5. Find genes associated with array probes
 >
->  Forrest et al. performed a microarray analysis of peripheral blood mononuclear cell gene expression in benzene-exposed workers (Environ Health Perspect. 2005 June; 113(6): 801–807). The microarray used was the human Affymetrix U133A/B (also called U133 plus 2) GeneChip. The top 25 up-regulated probe-sets are below.
+>    Forrest et al. performed a microarray analysis of peripheral blood mononuclear cell gene expression in benzene-exposed workers (Environ Health Perspect. 2005 June; 113(6): 801–807). The microarray used was the human Affymetrix U133A/B (also called U133 plus 2) GeneChip. The top 25 up-regulated probe-sets are below.
 >
->  (a) Retrieve for the genes corresponding to these probe-sets the Ensembl Gene and Transcript IDs as well as their HGNC symbols and descriptions.
+>    (a) Retrieve for the genes corresponding to these probe-sets the Ensembl Gene and Transcript IDs as well as their HGNC symbols and descriptions.
 >
->  (b) In order to analyse these genes for possible promoter/enhancer elements, retrieve the 2000 bp upstream of the transcripts of these genes.
+>    (b) In order to analyse these genes for possible promoter/enhancer elements, retrieve the 2000 bp upstream of the transcripts of these genes.
 >
->  (c) In order to be able to study these human genes in mouse, identify their mouse orthologues. Also retrieve the genomic coordinates of these orthologues
+>    (c) In order to be able to study these human genes in mouse, identify their mouse orthologues. Also retrieve the genomic coordinates of these orthologues
 >
->  207630_s_at, 221840_at, 219228_at, 204924_at, 227613_at, 223454_at, 228962_at, 214696_at, 210732_s_at, 212370_at, 225390_s_at, 227645_at, 226652_at, 221641_s_at, 202055_at, 226743_at, 228393_s_at, 225120_at, 218515_at, 202224_at, 200614_at, 212014_x_at, 223461_at, 209835_x_at, 213315_x_at
+>    207630_s_at, 221840_at, 219228_at, 204924_at, 227613_at, 223454_at, 228962_at, 214696_at, 210732_s_at, 212370_at, 225390_s_at, 227645_at, 226652_at, 221641_s_at, 202055_at, 226743_at, 228393_s_at, 225120_at, 218515_at, 202224_at, 200614_at, 212014_x_at, 223461_at, 209835_x_at, 213315_x_at
 >
 >
 {: .challenge}
