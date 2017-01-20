@@ -9,7 +9,7 @@
 
 $nus-blue:          #003d7c !default;
 $nus-orange:        #ef7c00 !default;
-$color-brand:       #2b3990 !default;
+$color-brand:       $nus-blue;
 
 // code boxes
 $color-error:       #bd2c00 !default;
@@ -117,7 +117,8 @@ img {
 //----------------------------------------
 
 .maintitle {
-  text-align: center;
+    text-align: center;
+
 }
 
 .footertext {

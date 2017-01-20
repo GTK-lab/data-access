@@ -1,25 +1,32 @@
 ---
 title: "Search and access data in BioMart"
 teaching: 25
-exercises: 0
+exercises: 20
 questions:
-- "How can I search in BioMart?"
-- "How can I get the result of BioMart?"
+- How can I search data from a BioMart?
+- How can I get the result of a BioMart query?
 objectives:
-- "Explain what does dataset, filter and attribute mean in BioMart."
-- "Introduce on how to construct your query."
-- "Some exercises on BioMart"
+- Explain the meanings of dataset, filter and attribute in BioMart.
+- Learn how to construct a Biomart query.
+- Practice some exercises using BioMart.
 keypoints:
-- "BioMart is a web-based powerful tools to search and download data in Ensembl."
-- "**Dataset** is where you can choose interested genome or dataset."
-- "You can set **Filter** to restrain the results that you interested in."
-- "Select what you what to know in **Attributes**"
-- "*Count* before you click *result* to avoid jam in data."
+- BioMart is a web-based powerful tool to search and download data.
+- Ensembl provides a Biomart interface to Ensembl data.
+- A Biomart *Dataset* is the starting point for a Biomart query.
+- A Biomart query results in a table with one row for each result that matches the query.
+- Biomart query *Filters* limit the query to rows match filter criteria.
+- You can use the *Count* button before you download the *results* to see the effects of
+  query filters.
+- Biomart query *Attributes* select data provided with each result. 
 ---
 
 ## What is BioMart?
 
-BioMart is an easy-to-use web-based tool that allows extraction of data without any programming knowledge or understanding of the underlying database structure. You can navigate through the BioMart web interface using the left panel. Filters and attributes can be selected in the right panel. A summary of your choices is also displayed in the left panel.
+BioMart is an easy-to-use web-based tool that allows extraction of data without any
+programming knowledge or understanding of the underlying database structure. You can
+navigate through the BioMart web interface using the left panel. Filters and attributes
+can be selected in the right panel. A summary of your choices is also displayed in the
+left panel.
 
 ## Let's walk through it!
 
