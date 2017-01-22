@@ -16,6 +16,13 @@ keypoints:
 - BioMart is a community-driven project to provide unified access to distributed research
   data to facilitate the scientific discovery process.
 - Biomarts are available for many biological databases, including Ensembl.
+figures:
+  fig1:
+    title: Genomes completed
+    file: ../fig/genome_completed.png
+  fig2: 
+    title: Biomart overview
+    file: ../fig/biomart_overview.png
 ---
 
 ## About the Ensembl project

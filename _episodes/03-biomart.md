@@ -18,6 +18,31 @@ keypoints:
 - You can use the *Count* button before you download the *results* to see the effects of
   query filters.
 - Biomart query *Attributes* select data provided with each result. 
+figures:
+  fig1:
+    title: Select a mart database
+    file: ../fig/biomart_1.png
+  fig2: 
+    title: Select a mart data set
+    file: ../fig/biomart_2.png
+  fig3:
+    title: Filter a Biomart query
+    file: ../fig/biomart_3.png
+  fig4:
+    title: Restrict results to a chromosome
+    file: ../fig/biomart_3_2.png
+  fig5:
+    title: Selecting Biomart query attributes
+    file: ../fig/biomart_4.png
+  fig6:
+    title: Preview and get query results
+    file: ../fig/biomart_5.png
+  fig7:
+    title: Cross-species biomart query
+    file: ../fig/biomart_cross_1.png
+  fig8:
+    title: Cross-species query filters and attributes
+    file: ../fig/biomart_cross_2.png
 ---
 
 ## What is BioMart?

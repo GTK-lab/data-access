@@ -10,7 +10,6 @@ objectives:
 - Use Ensembl identifiers to access and download Ensembl data from the command line
 keypoints:
 - Ensembl provides a variety of interfaces for accessing and downloading data.
-
 ---
 
 # The Ensembl system
