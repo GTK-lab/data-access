@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Ensembl and BioMart"
-teaching: 9
+teaching: 4
 exercises: 1
 questions:
 - What is Ensembl?

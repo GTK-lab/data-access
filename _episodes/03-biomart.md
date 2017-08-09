@@ -1,7 +1,7 @@
 ---
 title: "Search and access data in BioMart"
-teaching: 25
-exercises: 20
+teaching: 5
+exercises: 10
 questions:
 - How can I search data from a BioMart?
 - How can I get the result of a BioMart query?

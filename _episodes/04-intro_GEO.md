@@ -1,7 +1,7 @@
 ---
 title: "Introduction to GEO"
-teaching: 20
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
 - "What is GEO?"
 - "Why we use GEO?"

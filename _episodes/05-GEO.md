@@ -1,7 +1,7 @@
 ---
 title: "Search and access to data in GEO"
-teaching: 20
-exercises: 0
+teaching: 0
+exercises: 10
 questions:
 - "How can search for data I interested in?"
 - "What are included in GEO DataSets and Profiles?"

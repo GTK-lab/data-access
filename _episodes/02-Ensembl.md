@@ -1,7 +1,7 @@
 ---
 title: "Search and access data in Ensembl"
 teaching: 1
-exercises: 10
+exercises: 9
 questions:
 - "How can I find Ensembl data?"
 - "How can I download and access Ensembl data?"
