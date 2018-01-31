@@ -9,7 +9,7 @@ of each episode
 <ul>
   {%  for fig in episode.figures  %}
   {% if fig[1].file and fig[1].title %} 
-  <li><a href="{{ fig[1].file }}">{{ fig[1].title }}</a></li>
+  <li><a href="{{ fig[1].file | relative_url }}">{{ fig[1].title }}</a></li>
   {% endif %} 
 {%  endfor %}
 </ul>
